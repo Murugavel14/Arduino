@@ -8,12 +8,12 @@
 Install DHT22 Library
 ```
 
--# 2. LCD Display(16x2)
+- # 2. LCD Display(16x2)
 ```
 Install liquidcrystal Library
 ```
 
 - # 3. DS18B20 Sensor Program
-```
-Install DS18B20 Library
-```
+
+** Install DS18B20 Library **
+
