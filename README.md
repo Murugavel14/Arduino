@@ -15,7 +15,7 @@
 
 - **Install DS18B20 Library**
 
-# 5. Color Based product sorting
+# 5. Color Based product sorting(CBPS)
 
 - **Install servo Library**
 
