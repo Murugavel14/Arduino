@@ -39,5 +39,9 @@ void loop() {
             }
         }
         
-        delay(1000);
+        //delay(1000);
 }
+
+//Code written by Murugavel
+
+//SOURCE : https://wokwi.com/projects/424094057980385281
