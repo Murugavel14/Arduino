@@ -7,7 +7,7 @@
 
 - **Install DHT22 Library**
 
-# 2. LCD Display(16x2) ![LCD](https://github.com/Murugavel14/Arduino/blob/main/2.%20LCD%20display%20(16x2))
+# ![2. LCD Display(16x2) ](https://github.com/Murugavel14/Arduino/blob/main/2.%20LCD%20display%20(16x2))
 
 - **Install liquidcrystal Library**
 
