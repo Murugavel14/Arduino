@@ -3,7 +3,7 @@
 - I'm simulated my project in Wokwi & Tinkercad.
 - First of all check the library.
 
-# 1. Temperature sensor(DHT22) 
+# ![1. Temperature sensor(DHT22)](https://github.com/Murugavel14/Arduino/blob/main/1.%20Temperature%20Sensor(DHT22))
 
 - **Install DHT22 Library**
 
