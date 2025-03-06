@@ -11,11 +11,11 @@
 
 - **Install liquidcrystal Library**
 
-# 4. DS18B20 Sensor Program ![DS18B20](https://github.com/Murugavel14/Arduino/blob/main/4.%20DS18B20%20Sensor%20Program)
+# ![4. DS18B20 Sensor Program ](https://github.com/Murugavel14/Arduino/blob/main/4.%20DS18B20%20Sensor%20Program)
 
 - **Install DS18B20 Library**
 
-# 5. Color Based product sorting(CBPS) ![CBPS](https://github.com/Murugavel14/Arduino/blob/main/5.%20Color%20Based%20product%20sorting))
+# ![5. Color Based product sorting(CBPS)](https://github.com/Murugavel14/Arduino/blob/main/5.%20Color%20Based%20product%20sorting))
 
 - **Install servo Library**
 
