@@ -1,8 +1,10 @@
-//in future can optimize or reprogram this code..
 const int s1 = 12;  // Button 1 pin
 const int s2 = 5;   // Button 2 pin
 const int led = 13; // LED pin
+int c1 = 0;
+int c2 = 0;
 
+//int s3 = 0;
 void setup() {
     Serial.begin(9600);
 
@@ -13,35 +15,28 @@ void setup() {
 }
 
 void loop() {
-    //s3 = digitalRead(s1);
-    //if (s3 == 1) {  // Check if Button 1 is pressed
-       // digitalWrite(led, HIGH);
-        while (true) { // Stay in loop while button is pressed
-            if (digitalRead(s1) == 1 && digitalRead(s2) == 1) { // Check if Button 2 is pressed
-                digitalWrite(led, HIGH);
-                Serial.println("LED ON");
-                Serial.println("N/C");
-                delay(1000);
-            } else if (digitalRead(s1) == 1 && digitalRead(s2) != 1) {
-                digitalWrite(led, LOW);
-                Serial.println("reset");
-                delay(1000);
-            }
-            else if (digitalRead(s1) != 1 && digitalRead(s2) == 1){
-                digitalWrite(led, LOW);
-                Serial.println("reset");
-                delay(1000);
-            }
-            else {
-                digitalWrite(led, LOW);
-                Serial.println("reset");
-                delay(1000);
-            }
-        }
-        
-        //delay(1000);
+    c1 = digitalRead((5));
+    digitalWrite(led, c1);
+    delay(5000);
+    while (c1 == 1){
+      delay(5000);
+      c2 = digitalRead((12));
+      if (c1 ==1 && c2 == 1){
+        Serial.println("N/C");
+        delay(5000);
+      }
+      
+      else if(c1 == 1 && c2 == 0){
+        Serial.println("Reset");
+        digitalWrite(led, LOW);
+        delay(5000);
+      }
+      Serial.println("done");
+    }
+    Serial.println("not in loop");
+       // delay(1000);
 }
 
 //Code written by Murugavel
 
-//SOURCE : https://wokwi.com/projects/424094057980385281
+//SOURCE:https://wokwi.com/projects/424094057980385281
