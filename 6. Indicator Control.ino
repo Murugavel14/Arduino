@@ -32,6 +32,7 @@ void loop() {
         delay(5000);
       }
       Serial.println("done");
+      break;
     }
     Serial.println("not in loop");
        // delay(1000);
