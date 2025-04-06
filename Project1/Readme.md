@@ -5,5 +5,5 @@
 
  # driver:
  - **FT232R** _usb to uart driver_
-# OverView:
+# Overview:
 ![Final](https://github.com/Murugavel14/Arduino/blob/main/Project1/Final.jpg)
